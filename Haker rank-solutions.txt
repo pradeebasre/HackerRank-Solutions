@@ -1,0 +1,28 @@
+1)Loops:
+n = int(input())
+for i in range(n):
+    print(i**2)
+
+2)Python : Division:
+a=int(input())
+b=int(input())
+print(a//b)
+print(a/b)
+
+3)Arithmetic operators:
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+
+4)Python if-else:
+n = int(input())
+if n % 2 != 0:
+    print("Weird")
+elif 2 <= n <= 5:
+    print("Not Weird")
+elif 6 <= n <= 20:
+    print("Weird")
+else:
+    print("Not Weird")
